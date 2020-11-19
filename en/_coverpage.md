@@ -1,6 +1,6 @@
 <!-- _coverpage.md (en) -->
 
-![logo](../_media/Statisfying.png)
+![logo](/_media/Statisfying.png)
 
 # Statisfying EN <small>1.0</small>
 

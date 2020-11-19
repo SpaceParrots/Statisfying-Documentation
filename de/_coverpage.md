@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](../_media/Statisfying.png)
+![logo](/_media/Statisfying.png)
 
 # Statisfying <small>1.0</small>
 
