@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Statisfying Docs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A truly satisfying statistic plugin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Latest https://github.com/jhildenbiddle/docsify-themeable -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <style>
+    :root {
+      /* 	hsl(238, 78%, 28%) */
+      --theme-hue       : 238;
+      --theme-saturation: 78%;
+      --theme-lightness : 28%;
+      --theme-color: #101480;
+
+      --base-background-color:#f3f3f3;
+      --sidebar-background:#f9fbfd;
+      --sidebar-name-color: #101480;
+      --sidebar-name-font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      alias: {
+        '/de/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md',
+      },
+      coverpage: {
+        '/': 'de/_coverpage.md',
+        '/de/': '_coverpage.md',
+        '/en/': '_coverpage.md'
+      },
+      name: 'Statisfying',
+      // For each route
+      nameLink: {
+        '/en/': '/en/',
+        '/': '/',
+      },
+      repo: '',
+      themeColor: '#101480',
+      loadSidebar: true,
+      loadNavbar: true,
+      nameLink: false,
+      auto2top: true,
+      subMaxLevel: 2,
+      fallbackLanguages: ['en'],
+      // Themeable options
+      themeable: {
+          readyTransition : true, // default
+          responsiveTables: true  // default
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <script>
+
+  </script>
+
+</body>
+</html>
