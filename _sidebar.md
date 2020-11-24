@@ -1,6 +1,6 @@
 - Getting started
-  - [Installation](de/install.md "Installation")
+  - [Installation](de/install.md "Statisfying - Installation")
 - Nutzung
-  - [Tabellen](de/usage-tables.md "Tabellen")
-  - [Charts](de/usage-graphs.md "Charts")
+  - [Tabellen](de/usage-tables.md "Statisfying - Tabellen")
+  - [Charts](de/usage-graphs.md "Statisfying - Charts")
 
