@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Statisfying Docs</title>
@@ -13,24 +14,26 @@
   <style>
     :root {
       /* 	hsl(238, 78%, 28%) */
-      --theme-hue       : 238;
+      --theme-hue: 238;
       --theme-saturation: 78%;
-      --theme-lightness : 28%;
+      --theme-lightness: 28%;
       --theme-color: #101480;
 
-      --base-background-color:#f3f3f3;
-      --sidebar-background:#f9fbfd;
+      --base-background-color: #f3f3f3;
+      --sidebar-background: #f9fbfd;
       --sidebar-name-color: #101480;
       --sidebar-name-font-weight: bold;
     }
   </style>
 
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       alias: {
+        '/*/_media': '/_media',
         '/de/_sidebar.md': '/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md',
       },
@@ -39,13 +42,13 @@
         '/de/': '_coverpage.md',
         '/en/': '_coverpage.md'
       },
-      name: 'Statisfying',
+      repo: 'https://github.com/SpaceParrots/Statisfying',
+      name: '<a href="/" target="_self" rel="noopener">Statisfying</a>',
       // For each route
       nameLink: {
         '/en/': '/en/',
         '/': '/',
       },
-      repo: '',
       themeColor: '#101480',
       loadSidebar: true,
       loadNavbar: true,
@@ -53,10 +56,17 @@
       auto2top: true,
       subMaxLevel: 2,
       fallbackLanguages: ['en'],
+      markdown: {
+        renderer: {
+          image: function (href, title) {
+            return `<img src="${href}" data-origin="${href}" alt="${title}">`
+          }
+        }
+      },
       // Themeable options
       themeable: {
-          readyTransition : true, // default
-          responsiveTables: true  // default
+        readyTransition: true, // default
+        responsiveTables: true  // default
       }
     }
   </script>
@@ -65,10 +75,8 @@
   <!-- Docsify Plugins -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-
-  <script>
-
-  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 
 </body>
+
 </html>
