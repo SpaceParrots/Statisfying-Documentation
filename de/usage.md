@@ -1,6 +1,6 @@
 # Start
 
-Der Einstiegspunkt des Plugins kann unter *Einstellungen* → *Plugins* gefunden werden. Klicken Sie auf den Statisfying Eintrag um zur Übersicht zu gelangen.
+Der Einstiegspunkt des Plugins kann unter *Erweiterungen* → *Plugins* gefunden werden. Klicken Sie auf den Statisfying Eintrag um zur Übersicht zu gelangen.
 
 ![Statisfying im Plugins Reiter der Einstellungen](./_media/Statisfying_ShopwareAdministration_SettingsItem.png)
 
