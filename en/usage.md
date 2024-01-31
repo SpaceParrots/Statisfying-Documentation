@@ -1,6 +1,6 @@
 # Start
 
-The entry point of the plugin can be found under *Settings* → *Plugins*. Click on the Statisfying entry to get to the overview page.
+The entry point of the plugin can be found under *Extensions* → *Statisfying*. Click on the Statisfying entry to get to the overview page.
 
 ![Statisfying in the plugin tab of the settings page](./_media/Statisfying_ShopwareAdministration_SettingsItem.png)
 
